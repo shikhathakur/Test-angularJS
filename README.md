@@ -1,2 +1,12 @@
-# Test-angularJS
-Here is an angular application i used state provider where i have implemented reusable component for both header and footer .In home page if we click on login button it will redirect to login page ,Login page has the same custom header and it takes the login details of user and stores into service(LoginService) on click of submit button the page is redirect to dashboard page where the custom footer is used and it has logout button (on click of that button it will redirect to home page),in the same page in header the username (name should get from service) and also a greeting(from custom filter) should be printed. 
+# angular-test
+
+This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
+version 0.15.1.
+
+## Build & development
+
+Run `grunt` for building and `grunt serve` for preview.
+
+## Testing
+
+Running `grunt test` will run the unit tests with karma.
